@@ -1,0 +1,41 @@
+
+/*colocamos la propiedad box-sizing y font-family para que todas
+las cajas sean del mismo tamaño y el tipo de letra sea igual */
+*{
+   box-sizing: border-box;
+   font-family: serif;
+ }
+/*colocamos tamaño de caja y fuente*/
+ div {
+   height: 100px;
+   font-size: 17px;
+ }
+/*selector de clases*/
+ .yellow {
+   /*coclocamos el color de fondo*/
+     background-color: #ffc107;
+     /*se asigna relleno de lado izquierdo y superior */
+   padding-left: 8px;
+   padding-top: 4px;
+   /* se asigna margen de separación*/
+   margin: 7px;
+   /* transformamos la apariencia del texto dandole espacio entre caracteres.*/
+   letter-spacing: -0.7pt;
+   display:block;
+ }
+/*selector de clases*/
+ .black {
+   /*coclocamos el color de fondo*/
+   background-color: #333333;
+   /*colocamos el color de las letras*/
+   color: white;
+   /*se asigna relleno de lado izquierdo y superior */
+   padding-left: 8px;
+   padding-top: 4px;
+   /* se asigna margen de separación*/
+   margin: 7px;
+   /* transformamos la apariencia del texto dandole espacio entre caracteres.*/
+   letter-spacing: -0.7pt;
+   display: block;
+
+}
